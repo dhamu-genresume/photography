@@ -44,7 +44,7 @@ const CustomLivestreamLayout = () => {
       <div className="text-lg font-semibold mb-2">Live Viewers: {participantCount}</div>
       <div className="w-full h-[80vh] flex items-center justify-center bg-gray-800 rounded-lg">
         {firstParticipant ? (
-          <ParticipantView participant={firstParticipant} className="h-[70vh] rounded-lg" />
+          <ParticipantView participant={firstParticipant} className="h-full w-full rounded-lg" />
         ) : (
           <div className="text-gray-400 text-center">The host hasn't joined yet</div>
         )}
