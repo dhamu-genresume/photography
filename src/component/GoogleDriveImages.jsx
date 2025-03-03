@@ -20,7 +20,7 @@ function GoogleDriveImages({ folderId }) {
             .filter((file) => file.mimeType.startsWith("image/"))
             .map((file) => ({
               id: file.id,
-              url: `https://lh3.googleusercontent.com/drive-storage/AJQWtBNxSYRuqrJ692g4mrAEo9dp9Yypf5GVXhhsTnNImiAwVWkmFyjhzFUF0wQAhUUlmt27tbVAS8GQHvVqPJ1StAuldjhsNiNfycJw4g=s220`,
+              url: `https://lh3.googleusercontent.com/d/${file.id}`,
               name: file.name,
             }));
 
