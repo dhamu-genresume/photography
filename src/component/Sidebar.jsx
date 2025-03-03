@@ -42,10 +42,10 @@ const Sidebar = ({setSelectedOption}) => {
       <div style={{ width: "234px" }} className="fixed bottom-0">
         <h1 className="font-bold text-amber-400 text-[15px]">Contact</h1>
         <div className="flex justify-around my-4">
-          <i className="bi bi-geo-alt-fill text-amber-400"></i>
-          <i className="bi bi-instagram text-amber-400"></i>
-          <i className="bi bi-whatsapp text-amber-400"></i>
-          <i className="bi bi-envelope-fill text-amber-400"></i>
+          <a href="https://maps.app.goo.gl/BRyhtpnFgus6xHV59?g_st=aw"><i className="bi bi-geo-alt-fill text-amber-400"></i></a>
+          <a href="https://www.instagram.com/g_graphics_studio_official_?igsh=dnI0bmkyaGM2Y2dm"><i className="bi bi-instagram text-amber-400"></i></a>
+          <a href="https://wa.me/7708584091"><i className="bi bi-whatsapp text-amber-400"></i></a>
+          <a href="mailto:ggraphicsstudio81@gmail.com"><i className="bi bi-envelope-fill text-amber-400"></i></a>
         </div>
       </div>
     </div>
